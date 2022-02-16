@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const URL = "http://localhost:5000";
+// const URL = "http://localhost:5000";
+const URL = "https://tax-calculator-backend.herokuapp.com";
 
 export const saveUser = async (user) => {
   try {
